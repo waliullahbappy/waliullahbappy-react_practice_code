@@ -1,0 +1,19 @@
+.head{
+    color:blue
+}
+
+.testing{
+    color:aqua;
+    font-family: serif;
+    font-size: 40px;
+
+}
+
+.inputField{
+    width: 500px;
+    padding: 5px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    
+}

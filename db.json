@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "name": "waliullah Bappy",
+      "email": "w19@gmail.com",
+      "contact": "42572220",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Habiba Jannat",
+      "email": "waliullahbappy19@gmail.com",
+      "contact": "+8801742572220",
+      "id": 2
+    },
+    {
+      "name": "Kolim",
+      "email": "Kolim@gmail.com",
+      "contact": "+8801742572220",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "name": "Ayesha",
+      "email": "ayesha@gmail.com",
+      "contact": "+8801742572220",
+      "id": 4
+    },
+    {
+      "name": "selim",
+      "email": "selim@gmail.com",
+      "contact": "+8801742572220",
+      "id": 5
+    }
+  ]
+}
