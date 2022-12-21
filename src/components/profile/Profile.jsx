@@ -257,6 +257,16 @@ export default class Profile extends Component {
     )
   }
 
+ handleMultiCheckBox =(event)=>{
+  if(event.target.checked){
+    this.setState({
+      skills: [...this.state.skills,event.target.value]
+    })
+  }else{
+    const skills = this.state.skills.filter(skill => skill !== event.target.value)
+    this.setState({skills})
+  }
+ }
 
 
 
@@ -341,28 +351,37 @@ export default class Profile extends Component {
             inline
             label="Java"
             name="skills"
-            type='checkbox'
+            value='Java'
+            onChange={this.handleMultiCheckBox}
+            checked={this.state.skills.includes('Java')}
            
           />
             <Form.Check
             inline
             label="Python"
             name="skills"
-            type='checkbox'
+            value='Python'
+            onChange={this.handleMultiCheckBox}
+            checked={this.state.skills.includes('Python')}
            
           />
             <Form.Check
             inline
+            value='C++'
+            onChange={this.handleMultiCheckBox}
             label="C++"
             name="skills"
-            type='checkbox'
+            checked={this.state.skills.includes('C++')}
            
           />
             <Form.Check
             inline
             label="Javascript"
             name="skills"
-            type='checkbox'
+            value='Javascript'
+            onChange={this.handleMultiCheckBox}
+            checked={this.state.skills.includes('Javascript')}
+          
            
           />
         </div>
