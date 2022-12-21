@@ -265,7 +265,7 @@ export default class Profile extends Component {
   render() {
     return (
       <Form className='container w-50'>
-        <h1>Form waliullah</h1>
+        <h1>Form Handling</h1>
         <InputGroup className="mt-5">
         <Form.Control
           name="name"
